@@ -4,5 +4,5 @@
 
 def roll (number=1)
   number = Array.new(1..6)
-  puts "#{number}"
+  return "#{number}"
 end
