@@ -4,5 +4,5 @@
 
 def roll (number=1)
   number = Array.new(1..6)
-  return "#{number}"
+  return number.size
 end
